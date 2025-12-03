@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        product: [iac, cnapp, ai]
+        product: [mini_ci/cd]
         environment: [dev, test, staging, prod]
 
     steps:
